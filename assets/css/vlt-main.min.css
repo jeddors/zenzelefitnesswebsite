@@ -2528,7 +2528,7 @@ dl dd {
 .vlt-footer {
   position: relative;
   overflow: hidden;
-  background-color: #101010;
+  background-color: #575757;
 }
 .vlt-footer--fixed {
   z-index: 10;
