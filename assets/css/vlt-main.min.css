@@ -6642,7 +6642,7 @@ dl dd {
   transform: scale(1.1);
 }
 .vlt-service-box:hover .vlt-service-box__content {
-  background-color: rgba(232, 46, 49, 0.9);
+  background-color: #cdd62ac9;
 }
 .vlt-service-box:hover .vlt-service-box__icon i {
   -webkit-animation: vlt_bounce 0.7s forwards;
@@ -7103,7 +7103,7 @@ dl dd {
   -webkit-transition: opacity 0.3s;
   transition: opacity 0.3s;
   opacity: 0;
-  background-color: rgba(232, 46, 49, 0.9);
+  background-color: #cdd62ac4;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
