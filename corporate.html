@@ -282,7 +282,7 @@
 							<!--Animated block-->
 							<div class="vlt-animated-block" data-aos="fade" data-aos-delay="100">
 								<!--Apply position form-->
-								<form class="vlt-apply-position-form" novalidate="novalidate">
+								<form class="vlt-apply-position-form" novalidate="novalidate" name="corporatecontactform" data-netlify-recaptcha="true" data-netlify="true"  action="thank-you">
 									<div class="vlt-form-row two-col">
 										<div class="vlt-form-group">
 											<input class="vlt-form-control" type="text" name="name" required="required" placeholder=" ">
@@ -322,6 +322,9 @@
 									<div class="vlt-gap-40"></div>
 									<div class="text-center">
 										<!--Button-->
+										<div class="message success" style="display: none;">Your message is successfully sent...</div>
+									<div class="message danger">Sorry, something went wrong.</div>
+									<div data-netlify-recaptcha="true"></div>
 										<button class="vlt-btn vlt-btn--secondary vlt-btn--lg">Submit
 										</button>
 									</div>
